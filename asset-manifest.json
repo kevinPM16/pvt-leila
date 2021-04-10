@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/pvt-leila/static/css/main.e5e2edf5.chunk.css",
+    "main.js": "/pvt-leila/static/js/main.8a71cc42.chunk.js",
+    "main.js.map": "/pvt-leila/static/js/main.8a71cc42.chunk.js.map",
+    "runtime-main.js": "/pvt-leila/static/js/runtime-main.c8342609.js",
+    "runtime-main.js.map": "/pvt-leila/static/js/runtime-main.c8342609.js.map",
+    "static/js/2.582b6d44.chunk.js": "/pvt-leila/static/js/2.582b6d44.chunk.js",
+    "static/js/2.582b6d44.chunk.js.map": "/pvt-leila/static/js/2.582b6d44.chunk.js.map",
+    "index.html": "/pvt-leila/index.html",
+    "static/css/main.e5e2edf5.chunk.css.map": "/pvt-leila/static/css/main.e5e2edf5.chunk.css.map",
+    "static/js/2.582b6d44.chunk.js.LICENSE.txt": "/pvt-leila/static/js/2.582b6d44.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/pvt-leila/static/media/icones.e632cf93.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c8342609.js",
+    "static/js/2.582b6d44.chunk.js",
+    "static/css/main.e5e2edf5.chunk.css",
+    "static/js/main.8a71cc42.chunk.js"
+  ]
+}
