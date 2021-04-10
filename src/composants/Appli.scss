@@ -1,0 +1,59 @@
+
+
+  /*
+  CONTENU PRINCIPAL
+*/
+
+.contenu-principal {
+  background-color: white;
+  color: #444444;
+  margin: 0;
+  padding: 30px 170px;
+}
+
+.contenu-principal h2 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 2.11rem;
+  font-weight: 400;
+  margin: 0px;
+  margin-top: 20px;
+}
+
+.contenu-principal p {
+  font-size: 1rem;
+}
+
+/*
+  MENU
+*/
+
+.citation {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc; 
+  clear: both;
+  overflow: hidden;
+  padding: 15px;
+  margin-bottom: 40px;
+  margin-top: -10px;
+}
+
+.citation img {
+  float: left;
+}
+
+.citation blockquote {
+  font-size: 1.5em;
+  font-style: italic;
+  color: #777;
+  margin-left: 200px;
+  padding-left: 20px;
+  border-left: 1px solid #ccc;
+}
+
+blockquote cite {
+  color: #aaa;
+  font-size: 0.8em;
+  font-style: normal;
+  display: block;
+  margin-top: 10px;
+}

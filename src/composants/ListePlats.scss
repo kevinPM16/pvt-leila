@@ -1,0 +1,38 @@
+/* Liste des plats */
+.carte section ul {
+    padding: 0px;
+    overflow-x: hidden;
+    list-style: none;
+  }
+  
+  .carte section ul li {
+    padding-bottom: 15px;
+  }
+  
+  .carte section ul li::after {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+   content: ". . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ";
+  }
+  .carte section ul span:first-child {
+    padding-right: 0.33em;
+    background: white;
+  }
+  .carte section ul span + span {
+    float: right;
+    padding-left: 0.33em;
+    background: white;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .carte section ul li span i {
+    font-size: 0.95em;
+    font-weight: normal;
+    color: #999;
+  }
+  
+  .carte section ul li span.prix {
+    font-weight: bold;
+  }

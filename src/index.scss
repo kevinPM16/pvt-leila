@@ -1,0 +1,41 @@
+/* POLICES DE CARACTÈRES LOCALES */
+@font-face {
+    font-family: Ribbon;
+    src: url(./fonts/Ribbon_V2_2011.woff2);
+  }
+  
+  @font-face {
+    font-family: 'Icones';
+    src: url(./fonts/icones.woff);
+  }
+
+  
+  /*
+    STRUCTURE ET STYLES COMMUNS
+  */
+  /* Pour la propriété box-sizing, voir : http://www.paulirish.com/2012/box-sizing-border-box-ftw */
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #7f7f7f;
+    font-size: 18px;
+  }
+  
+  a, a:visited, a:active, a:link {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  #conteneur {
+    background-color: #fff;
+    box-shadow: 0px 0px 30px 2px rgba(0,0,0,0.5);
+    width: 1268px;
+    margin: 30px auto;
+    font-family: 'Roboto', sans-serif;
+  }
+  

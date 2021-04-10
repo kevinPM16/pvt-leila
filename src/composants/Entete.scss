@@ -1,0 +1,97 @@
+/*
+  ENTETE ET MENU DE NAVIGATION
+*/
+
+#conteneur > header {
+    width: 100%;
+    color: white;
+    background-repeat: no-repeat;
+  }
+  
+  // .page-menu > header {
+  //   background-image: url(../../../public/images/menu-entete.jpg);
+  // }
+  
+  .barre-haut {
+    height: 50px;
+    background-color: black;
+    opacity: 0.75;
+    text-align: center;
+    padding: 0 170px;
+  }
+  
+  /* Barre de haut - liens de navigation */
+  .barre-haut nav a {
+    margin: 5px;
+    width: 32px;
+    height: 32px;
+    background-color: #fff;
+    color: #000;
+    font-size: 0.89rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 32px;
+    display: inline-block;
+    border-radius: 50%;
+  }
+  
+  .barre-haut nav a:hover {
+    background-color: #fed531;
+  }
+  
+  /* Navigation réseaux-sociaux */
+  nav.social {
+    width: auto;
+    padding: 4px;
+    float: left;
+  }
+  
+  /* Réseaux sociaux - icones */
+  .icone-twitter::after {
+    font-family: Icones;
+    content: "\e900";
+  }
+  
+  .icone-facebook::after {
+    font-family: Icones;
+    content: "\e901";
+  }
+  
+  /* Navigation i18n */
+  nav.i18n {
+    width: auto;
+    padding: 4px;
+    float: right;
+  }
+  
+  nav.i18n a.actif {
+    background-color: rgba(154,154,154,0.8);
+  }
+  
+  .titre-page {
+    clear: both;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+  }
+  
+  .titre-page h1 {
+    font-family: Ribbon, serif;
+    font-weight: 400;
+    font-size: 7.67rem;
+    letter-spacing: 0.75rem;
+    line-height: 1em;
+    margin: 0px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+  
+  .titre-page h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.86rem;
+    font-weight: 600;
+    letter-spacing: 0.36em;
+    margin: 0px;
+    padding: 0;
+  }
