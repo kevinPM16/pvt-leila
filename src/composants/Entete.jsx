@@ -3,7 +3,7 @@ import './Entete.scss'
 export default function Entete(props) {
 
     return (
-        <header style={{ backgroundImage: "url(images/menu-citation.jpg" }}>
+        <header style={{ backgroundImage: "url(images/menu-entete.jpg" }}>
         <div className="barre-haut">
           <nav className="social">
             <a href="http://www.twitter.com" target="lien-externe" className="icone-twitter"></a>
